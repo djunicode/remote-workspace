@@ -17,4 +17,4 @@ There will be 4 branches
 - app
 - backend
 
-__*NOBODY SHOULD MAKE PULL REQUEST TO MAIN BRANCH. All changes should be made to either frontend or backend or ml depending on where you are working.*__
+__*NOBODY SHOULD MAKE PULL REQUEST TO MAIN BRANCH. All changes should be made to either frontend or backend or the app branch depending on where you are working.*__
