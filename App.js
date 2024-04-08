@@ -7,17 +7,20 @@ import Landingpage from './screens/landingpage.js';
 import Loginpage from './screens/loginpage.js';
 import SignUpPage from './screens/signuppage.js';
 import WelcomePage from './screens/welcomepage.js';
+import Homepage from './screens/Homepage.js';
 
 
 const App = () => {
   const Stack = createNativeStackNavigator();
   return (
     <NavigationContainer>
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={{headerShown: false}}>
+    <Stack.Screen name="Home" component={Homepage}/>
     <Stack.Screen name="Landing" component={Landingpage} />
     <Stack.Screen name="LoginPage" component={Loginpage} />
     <Stack.Screen name="SignUpPage" component={SignUpPage}/>
     <Stack.Screen name="WelcomePage" component={WelcomePage}/>
+    
   
   </Stack.Navigator>
   </NavigationContainer>
