@@ -19,14 +19,14 @@ const WelcomePage = ({ navigation }) => {
       <Text style={styles.text}>Welcome!</Text>
       <Text style={styles.textthin}>Select the mode you would like to work in, next:</Text>
       <TouchableOpacity onPress={()=>{
-        navigation.replace("LoginPage");
+        navigation.replace("Home");
         
         
       }} style={[styles.button,{margin:20,backgroundColor:'#3C1361'}]}>
         <Text style={styles.buttontext}>Personal</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={()=>{
-        navigation.navigate("SignUpPage");
+        navigation.navigate("Home");
         
         
       }} style={[styles.button,{backgroundColor:'white'}]}>
